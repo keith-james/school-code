@@ -10,3 +10,5 @@ List of programs:
 2. Linear search
 3. Abc array
 4. Min-max array
+
+Props to the contributors: Kenneth, Ethan and Jesai
