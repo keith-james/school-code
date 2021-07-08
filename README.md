@@ -10,5 +10,6 @@ List of programs:
 2. Linear search
 3. Abc array
 4. Min-max array
+5. Subject arrays
 
 Props to the contributors: Kenneth, Ethan and Jesai
