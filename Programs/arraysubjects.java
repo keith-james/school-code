@@ -1,3 +1,6 @@
+/*6. Accept the name, physics, chemistry and math marks of 25 students. Then display a list of the given data with Total and Average.
+bugg no name input so sad :(*/
+
 import java.util.*;
 public class arraysubjects {
     public static void main(String[] args) {
