@@ -1,9 +1,9 @@
 # school-code
 <!-- :( I can't think of description rn -->
 
-collab of all school-code so we don't have to waste time doing it ourselves! :) 
+collab of all school-code so we don't have to ~~waste~~ spend time doing it ourselves! :) 
 
-This the good shit.
+This the good ~~shit~~ **ahem** stuff.
 
 List of programs:
 1. Bubble sort
