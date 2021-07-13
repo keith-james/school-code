@@ -33,7 +33,6 @@ public class bubblesort {
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
-
     }
 
     private static void asc_rev(int array[]){
@@ -47,9 +46,7 @@ public class bubblesort {
                     array[j] = array[i];
                     array[i] = temp;
                 }
-
             }
-
         }
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i]+ " ");
