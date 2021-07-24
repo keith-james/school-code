@@ -4,7 +4,7 @@ import java.util.*;
 public class arraysubjects {
     public static void main(String[] args) {
 
-        /*Initialising variables*/
+        // Initialising variables
         Scanner sc=new Scanner(System.in);
         int numberOfStudents = 2;
         String names[] = new String[numberOfStudents];
@@ -13,7 +13,7 @@ public class arraysubjects {
         int chem[] = new int[numberOfStudents];
         int physics_sum = 0, chem_sum = 0, maths_sum = 0;
 
-        /* INPUT */
+        // INPUT
         for(int i = 0; i < numberOfStudents; i++){
             System.out.println("Enter your name: ");
             names[i] = sc.next();
@@ -30,7 +30,7 @@ public class arraysubjects {
 
         sc.close();
 
-        /*Calculating the total*/
+        //Calculating the total
         for(int i = 0; i < numberOfStudents; i++){
             physics_sum = physics_sum + physics[i];
             chem_sum = chem_sum + chem[i];
@@ -43,7 +43,7 @@ public class arraysubjects {
             System.out.println(names[i] + " \t    " + physics[i] + " \t     " + chem[i] + " \t    " + maths[i]);
         }
 
-        /*Printing out the name, total and the average. The average is calculated here itself because it's just total divided by number of items (array length)*/
+        //Printing out the name, total and the average. The average is calculated here itself because it's just total divided by number of items (array length)
         System.out.println("Physics total: " + physics_sum + "\nPhysics avg: " + (physics_sum/physics.length));
         System.out.println("Maths total: " + maths_sum + "\nMaths avg: " + (maths_sum/physics.length));
         System.out.println("Chem total: " + chem_sum + "\nChem avg: " + (chem_sum/physics.length));
