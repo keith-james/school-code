@@ -4,7 +4,13 @@ public class CharacterFunctions {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a character: ");
-        char character = sc.next().charAt(0); //The scanner class in java doesn't have a function to read character input, therefore I've used the string input function (Scanner.next())here and taken the first character of that string as our input
+        char character = sc.next().charAt(0); 
+        /*
+        The scanner class in java doesn't have a function to read character input, 
+        therefore I've used the string input function (Scanner.next())here and taken the first character of that string as our input
+        
+        Explanation on the .charAt() function will be there in the StringFunctions.java file
+        */
         boolean isLetter = Character.isLetter(character);
         System.out.println("Is the character a letter? " +isLetter);
         /*
