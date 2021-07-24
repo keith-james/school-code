@@ -10,7 +10,7 @@ public class abcArray {
         for(int i = 0; i < a.length; i++){
             System.out.print("Enter a =");
             a[i] = sc.nextInt();
-            System.out.print("Entre b = ");
+            System.out.print("Enter b = ");
             b[i] = sc.nextInt();
         }
 
