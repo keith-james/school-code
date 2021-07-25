@@ -5,9 +5,6 @@
 // 1 2 3 4 5
 
 import java.util.*;
-public class floyds
-{
-import java.util.*;
 public class flodsTriangle {
     public static void main (String args[]){
         Scanner jt = new Scanner (System.in);
