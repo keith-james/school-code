@@ -11,5 +11,7 @@ List of programs:
 3. Abc array
 4. Min-max array
 5. Subject arrays
+6. String Functions
+7. Character Functions
 
 Props to the contributors: Kenneth, Ethan and Jesai
