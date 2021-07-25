@@ -9,7 +9,7 @@ public class StringFunctions {
 
         int length = string.length();
         System.out.println("The length of the string is: " +length);
-        // The .length() function is used to get the length of a string. It returns the length as an integer.
+        // The stringName.length() function is used to get the length of a string. It returns the length as an integer.
 
         int firstChar = string.charAt(0);
         System.out.println("The first character is: " +firstChar);
@@ -25,7 +25,7 @@ public class StringFunctions {
         int index = string.indexOf(searchChar);
         System.out.println("The Index of the character you entered is: " +indexOf);
         /*
-         * The .indexOf() function looks for a character inside the string and returns the index of it. If there are multiple instances of the same character it always
+         * The stringName.indexOf() function looks for a character inside the string and returns the index of it. If there are multiple instances of the same character it always
          * returns the first occurence.
          * For example in the string "Yohan", the index of 'Y' is 0 (remember array elements start from 0 not 1)
 
