@@ -12,12 +12,12 @@ public class floyds
         Scanner et=new Scanner(System.in);
         System.out.println("Enter a limit");
         int n=et.nextInt();
-        int floyds=1;
-        for (int i=1; i<=n; i++)
+
+        for (int i=1; i <= n; i++)
         {
             for(int j=1; j<=i; j++){
-                System.out.print(floyds + " ");
-                floyds++;
+                System.out.print(j + " "); // 1 2 3
+                System.out.println();
             }
             System.out.println();
         }
