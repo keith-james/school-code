@@ -14,4 +14,4 @@ List of programs:
 6. String Functions
 7. Character Functions
 
-Props to the contributors: Kenneth, Ethan and Jesai
+Props to the contributors: Kenneth, Ethan, Jesai and Keith
