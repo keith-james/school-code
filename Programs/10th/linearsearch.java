@@ -17,12 +17,19 @@ public class linearsearch {
         }
 
         System.out.println("Enter a number to search: ");
-        int num = sc.nextInt();
+        int numtocheck = sc.nextInt();
 
+        boolean found = false;
         for(int i = 0; i < nums.length; i++) {
-            if(num == nums[i]) {
-                System.out.println("FOUND IT!" + nums[i]);
+            if(numtocheck == nums[i]) {
+                found = true;
             }
+        }
+
+        if(found == true) {
+            System.out.println("We found the number!");
+        }else {
+            System.out.println("The number isn't there.");
         }
     }
 }

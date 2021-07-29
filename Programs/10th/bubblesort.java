@@ -22,7 +22,7 @@ public class bubblesort {
      * You do this with a nested loop -
      * Each index in the outer loop has to be compared with the indices that come before it, this comparison is done in the inner loop
      * Swap the numbers if the number in the outer loop is lesser than the number in the inner loop for ascending order.
-     * Swap the numbers if the number in the outer loop is greater than the number in the inner loop for ascending order.
+     * Swap the numbers if the number in the outer loop is greater than the number in the inner loop for descending order.
      */
 
     private static void asc_rev(int array[]){
