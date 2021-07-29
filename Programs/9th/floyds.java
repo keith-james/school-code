@@ -7,7 +7,7 @@
 import java.util.*;
 public class floyds
 {
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         Scanner et=new Scanner(System.in);
         System.out.println("Enter a limit");
