@@ -30,7 +30,6 @@ public class flodsTriangle {
         for(int i=1;i<=limit;i++){
             for(int j=1;j<=i;j++){
                 System.out.print(j+" ");
->>>>>>> a9e9f9861da9d193a4e43bea98d2ce3ab7f08920
             }
             System.out.print("\n");
         }
