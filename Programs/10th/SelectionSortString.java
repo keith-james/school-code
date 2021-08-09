@@ -9,12 +9,12 @@ public class SelectionSortString{
 					min = j;
 				}
 			}
-			int temp = array[min];
+			String temp = array[min];
 			array[min] = array[i];
 			array[i] = temp;
 		}
 		for(int i = 0; i < size; i++){
-			System.out.print(" " + array[i];
+			System.out.print(" " + array[i]);
 		}
 	}
 }
